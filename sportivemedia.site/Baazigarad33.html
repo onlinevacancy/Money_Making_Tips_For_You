@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from sportivemedia.site/Baazigar.html?utm_medium=paid by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Mar 2026 20:03:42 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Channel</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+
+  /* 🔥 Background Image */
+  background:url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e') no-repeat center center/cover;
+}
+
+/* Dark Overlay */
+body::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.65);
+  backdrop-filter: blur(6px);
+}
+
+/* Card */
+.container{
+  position:relative;
+  z-index:2;
+  width:90%;
+  max-width:380px;
+  padding:25px;
+  border-radius:20px;
+  text-align:center;
+  color:#fff;
+
+  background:rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+  box-shadow:0 15px 50px rgba(0,0,0,0.6);
+
+  animation:slideUp 1s ease;
+}
+
+@keyframes slideUp{
+  from{opacity:0; transform:translateY(40px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+/* Image */
+.channel-img{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  margin:auto;
+  overflow:hidden;
+  border:3px solid rgba(255,255,255,0.4);
+  box-shadow:0 0 20px rgba(0,255,200,0.6);
+}
+
+.channel-img img{
+  width:100%;
+}
+
+/* Text */
+h2{
+  margin-top:15px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+.sub{
+  font-size:14px;
+  color:#ddd;
+  margin:8px 0;
+}
+
+.desc{
+  font-size:14px;
+  margin:10px 0 15px;
+  color:#ccc;
+}
+
+/* Timer */
+.timer{
+  font-size:18px;
+  margin:10px 0;
+  color:#00ffc3;
+  font-weight:600;
+}
+
+/* Button */
+.join-btn{
+  display:inline-block;
+  padding:14px 28px;
+  border-radius:50px;
+  background:linear-gradient(45deg,#00ffcc,#0072ff);
+  color:#fff;
+  font-weight:600;
+  text-decoration:none;
+  margin-top:10px;
+  transition:0.3s;
+  position:relative;
+  overflow:hidden;
+}
+
+/* Glow Effect */
+.join-btn::before{
+  content:"";
+  position:absolute;
+  width:300%;
+  height:300%;
+  top:-100%;
+  left:-100%;
+  background:radial-gradient(circle,rgba(255,255,255,0.3),transparent);
+  transition:0.5s;
+}
+
+.join-btn:hover::before{
+  top:0;
+  left:0;
+}
+
+.join-btn:hover{
+  transform:scale(1.07);
+}
+
+/* Footer */
+.footer{
+  margin-top:15px;
+  font-size:12px;
+  color:#aaa;
+}
+
+/* Mobile Fix */
+@media(max-width:400px){
+  .container{
+    padding:20px;
+  }
+}
+</style>
+
+ <!-- Meta Pixel Code -->
+    <script>
+        !function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+        
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        
+        fbq('init', '1913051362665273');
+        fbq('init', '1207227767577940');
+        fbq('init', '916530291241920');
+        fbq('track', 'PageView');
+    </script>
+    
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1913051362665273&amp;ev=PageView&amp;noscript=1" />
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1207227767577940&amp;ev=PageView&amp;noscript=1" />
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=916530291241920&amp;ev=PageView&amp;noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="channel-img">
+    <img src="img/Baazigar.jpg">
+  </div>
+
+  <h2>Baazigar™️</h2>
+  <div class="sub">144,817 subscribers</div>
+
+  <div class="desc">
+    Hum Koi Baazi Khele to haare kam hai... 🔥  
+  </div>
+
+  <div class="timer" id="timer">Redirecting in 60s</div>
+
+  <a onclick="redirectToLink()" class="join-btn">🚀 Join Channel</a>
+
+  <div class="footer">
+    Instant access • No waiting ⚡
+  </div>
+
+</div>
+
+<script>
+function redirectToLink(){
+  window.location.href="https://t.me/+UrFO4VeLL6EyNmJl";
+}
+
+/* Timer */
+let timeLeft = 60;
+
+function updateTimer(){
+  document.getElementById("timer").innerText = "Redirecting in " + timeLeft + "s";
+
+  if(timeLeft <= 0){
+    window.location.href="https://t.me/+UrFO4VeLL6EyNmJl";
+  }
+
+  timeLeft--;
+  setTimeout(updateTimer,1000);
+}
+
+updateTimer();
+</script>
+
+</body>
+
+<!-- Mirrored from sportivemedia.site/Baazigar.html?utm_medium=paid by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Mar 2026 20:03:43 GMT -->
+</html>
